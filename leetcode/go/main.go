@@ -41,5 +41,7 @@ func main() {
 	s := "aabbaccddcca"
 	// s := "ababbbabbabaaasbbabskbbasaaabbababbbsndbandjaaaabb"
 	mylib.MinCut(s)
+	// s := "(1+(4+5+2)-3)+(6+8)"
+	// fmt.Println(mylib.Calculate(s))
 
 }
