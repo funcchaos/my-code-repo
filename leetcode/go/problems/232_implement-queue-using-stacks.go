@@ -7,7 +7,7 @@ type MyQueue struct {
 }
 
 //Constructor Initialize your data structure here.
-func Constructor() MyQueue {
+func ConstructorMyQueue() MyQueue {
 	input := make([]int, 0)
 	output := make([]int, 0)
 	return MyQueue{input, output}
